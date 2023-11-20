@@ -24,14 +24,17 @@ export default function Home() {
         ...
       </div>
 
-      <div className = "flex flex-row">
-      And just so you know my
-      brother-in-real is a 
-      <div className = " mx-1" style={{textDecorationLine: 'line-through', textDecorationStyle: 'solid'}}>
-       DEA agent
-        </div>
-        loser 
-        </div>
+      <div>
+      
+      <span className="mx-1">
+        And just so you know, my brother-in-real is a&nbsp;
+        <span style={{ textDecorationLine: 'line-through', textDecorationStyle: 'solid' }}>
+          DEA agent
+        </span>&nbsp;loser
+      </span>
+
+    </div>
+
 
     <div>
      <Image src = "/assets/images/Loser.png"
