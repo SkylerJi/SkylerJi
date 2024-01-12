@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
     
 
       <div>
-        My husband is Your Mom's Wide, yo.
+        My husband is Yo Momma, yo.
       </div>
 
       <div>
@@ -27,7 +28,7 @@ export default function Home() {
       <div>
       
       <span className="mx-1">
-        And just so you know, my brother-in-real is a&nbsp;
+        And just so you know, my brother-in-blood is a&nbsp;
         <span style={{ textDecorationLine: 'line-through', textDecorationStyle: 'solid' }}>
           DEA agent
         </span>&nbsp;loser
@@ -40,9 +41,20 @@ export default function Home() {
      <Image src = "/assets/images/Loser.png"
                   width={200}
                   height={200}
-                  alt="Yo"/>
+                  alt="brotha"/>
 
      </div>
+
+     <div>
+          <Link href="https://halckers.com" target="_blank" rel="noopener noreferrer">
+              Hackers website
+          </Link>
+      </div>
+      <div>
+          <Link href="https://aipeiron.com" target="_blank" rel="noopener noreferrer">
+              Aipeiron
+          </Link>
+    </div>
 
     
 
