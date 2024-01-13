@@ -49,6 +49,10 @@ export default function Home() {
 
      </div>
 
+     <div className = "mt-8">
+      Click me:
+     </div>
+
      <div>
           <Link href="https://halckers.com" target="_blank" rel="noopener noreferrer" className = "bg-red-500 text-white">
               Hackers website
