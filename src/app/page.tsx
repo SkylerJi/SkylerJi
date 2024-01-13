@@ -4,6 +4,10 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div>
+      <div className = "text-5xl text-red-500">
+        Disclaimer: This site is ugly on purpose
+
+      </div>
       <div>
         My name is Skyler Ji, yo.
 
