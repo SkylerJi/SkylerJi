@@ -46,12 +46,12 @@ export default function Home() {
      </div>
 
      <div>
-          <Link href="https://halckers.com" target="_blank" rel="noopener noreferrer">
+          <Link href="https://halckers.com" target="_blank" rel="noopener noreferrer" className = "bg-red-500 text-white">
               Hackers website
           </Link>
       </div>
       <div>
-          <Link href="https://aipeiron.com" target="_blank" rel="noopener noreferrer">
+          <Link href="https://aipeiron.com" target="_blank" rel="noopener noreferrer" className = "bg-red-500 text-white">
               Aipeiron
           </Link>
     </div>
