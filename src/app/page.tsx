@@ -8,13 +8,9 @@ export default function Home() {
         </div>
         <div>
           <div className = "flex items-center justify-center text-3xl font-thin pb-16 text-center md:pb-32">
-            Everything I've ever done loosely ranked in terms of current enjoyment. I'm probably forgetting a lot. 
+            Everything I've ever done loosely ranked in terms of current enjoyment. I'm probably forgetting a lot. Also no career oriented activities allowed. 
           </div>
           <div className = "grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16 md:gap-y-32 text-3xl font-thin pb-32 md:pb-64">
-
-            <span className="flex items-center justify-center text-center">
-              Startups
-            </span>
             <span className="flex items-center justify-center text-center">
               Basketball
             </span>
@@ -25,13 +21,10 @@ export default function Home() {
               Hockey
             </span>
             <span className="flex items-center justify-center text-center">
-              Coding
-            </span>
-            <span className="flex items-center justify-center text-center">
               Chess
             </span>
             <span className="flex items-center justify-center text-center">
-              Podcasts
+              Philosophy
             </span>
             <span className="flex items-center justify-center text-center">
               Reading
@@ -43,10 +36,16 @@ export default function Home() {
               Pickleball
             </span>
             <span className="flex items-center justify-center text-center">
-              Consume Media
+              Doomscrolling
             </span>
             <span className="flex items-center justify-center text-center">
-              Accounting
+              One Piece
+            </span>
+            <span className="flex items-center justify-center text-center">
+              Kimi No Na Wa
+            </span>
+            <span className="flex items-center justify-center text-center">
+              Other Anime
             </span>
             <span className="flex items-center justify-center text-center">
               Bonk.io
@@ -67,9 +66,6 @@ export default function Home() {
               Skyrim
             </span>
             <span className="flex items-center justify-center text-center">
-              Anime
-            </span>
-            <span className="flex items-center justify-center text-center">
               Pokemon Cards
             </span>
             <span className="flex items-center justify-center text-center">
@@ -77,6 +73,9 @@ export default function Home() {
             </span>
             <span className="flex items-center justify-center text-center">
               BTD
+            </span>
+            <span className="flex items-center justify-center text-center">
+              Traveling
             </span>
             <span className="flex items-center justify-center text-center">
               Rock Climbing
@@ -95,6 +94,9 @@ export default function Home() {
             </span>
             <span className="flex items-center justify-center text-center">
               MooMoo.io
+            </span>
+            <span className="flex items-center justify-center text-center">
+              Other Video Games
             </span>
             <span className="flex items-center justify-center text-center">
               Karate
